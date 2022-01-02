@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User Id Matched TestId2passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-25T16:01:39 IST" name="Default suite" finished-at="2021-12-25T16:02:24 IST" duration-ms="45299">
+    <groups>
+    </groups>
+    <test started-at="2021-12-25T16:01:39 IST" name="Default test" finished-at="2021-12-25T16:02:24 IST" duration-ms="45299">
+      <class name="TEST_CLASSES.BaseUtilityKite">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TEST_CLASSES.BaseUtilityKite@4659191b]" started-at="2021-12-25T16:01:39 IST" name="launchBrowser" finished-at="2021-12-25T16:02:10 IST" duration-ms="30331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToKite()[pri:0, instance:TEST_CLASSES.BaseUtilityKite@4659191b]" started-at="2021-12-25T16:02:10 IST" name="loginToKite" finished-at="2021-12-25T16:02:18 IST" duration-ms="7968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToKite -->
+        <test-method signature="Validation()[pri:0, instance:TEST_CLASSES.BaseUtilityKite@4659191b]" started-at="2021-12-25T16:02:18 IST" name="Validation" finished-at="2021-12-25T16:02:22 IST" duration-ms="4293" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Id Matched TestId2passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validation -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:TEST_CLASSES.BaseUtilityKite@4659191b]" started-at="2021-12-25T16:02:22 IST" name="LogOut" finished-at="2021-12-25T16:02:24 IST" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TEST_CLASSES.BaseUtilityKite@4659191b]" started-at="2021-12-25T16:02:24 IST" name="closeBrowser" finished-at="2021-12-25T16:02:24 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TEST_CLASSES.BaseUtilityKite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
